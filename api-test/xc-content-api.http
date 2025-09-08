@@ -1,0 +1,15 @@
+###
+POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=10
+Content-Type: application/json
+
+{
+  "auditStatus": "",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+
+###
+GET {{content_host}}/content/course-category/tree-nodes
+
+
